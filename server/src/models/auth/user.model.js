@@ -21,11 +21,7 @@ const userSchema = new mongoose.Schema({
     },
     photo: {
         type : String,
-<<<<<<< HEAD
         default : "no-photo.jpg"
-=======
-        default : "https://www.freepik.com/free-vector/blue-circle-with-white-user_145857007.htm#fromView=keyword&page=1&position=0&uuid=5c6c0123-d220-42a3-ba92-c5dfa5b07dd5&query=Default+Avatar"
->>>>>>> staging
     },
     bio:{
         type: String,
